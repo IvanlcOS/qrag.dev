@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd benchmark-ui && npm install && npm run build",
+  "outputDirectory": "benchmark-ui/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
