@@ -22,6 +22,11 @@ Thumbs.db
 # Project artifacts
 rag/*.npy
 rag/metadata.json
+rag/vectors.json
 benchmark/results/
 corpus/qdk-cache/
 *.deb
+
+# .NET build outputs
+bin/
+obj/
