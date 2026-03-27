@@ -23,7 +23,7 @@ USE_GLM = ZhipuAI is not None
 USE_OPENAI = OpenAI is not None
 
 # Get API key and model from environment or use defaults
-GLM_API_KEY = os.environ.get("GLM_API_KEY", "9410fc5e242948aabc088709c826d9c4.vRNJuidhjrsOMgjB")
+GLM_API_KEY = os.environ.get("GLM_API_KEY", "")
 GLM_MODEL = os.environ.get("GLM_MODEL")
 GLM_AUTO_MODEL = os.environ.get("GLM_AUTO_MODEL", "1")
 GLM_FALLBACK_MODEL = os.environ.get("GLM_FALLBACK_MODEL", "glm-4")
